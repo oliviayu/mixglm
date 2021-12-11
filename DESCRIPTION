@@ -1,0 +1,22 @@
+Package: mixglm
+Type: Package
+Title: Generalized linear models with data integration
+Version: 0.0.1
+Author: Tingting Yu
+Maintainer: The package maintainer <tingting.yu.jun@gmail.com>
+Description: More about what it does (maybe more than one line)
+    Use four spaces when indenting paragraphs within the Description.
+License: What license is it under?
+Encoding: UTF-8
+Imports: 
+    Rcpp,
+    Deriv (>= 3.9.0),
+    matrixcalc (>= 1.0-3),
+    lbfgs (>= 1.2.1),
+    parallel (>= 3.5.3),
+    nleqslv (>= 3.3.2),
+    magrittr,
+    glmnet
+LazyData: true
+RoxygenNote: 7.1.0
+LinkingTo: Rcpp, RcppEigen
